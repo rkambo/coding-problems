@@ -1,5 +1,17 @@
 # Algorithm Notebook
 
+## Arrays
+
+### Binary Search
+
+1. Sort the list in ascending order
+2. Declare a left and right variable, representing the first and last index of the list
+3. While the left does not equal the right, calculate the midpoint index between the two indexes
+4. If the value at the midpoint index equals your target, return it
+5. Otherwise, if your target is _less_ than the midpoint value, change your left pointer to be midpoint + 1
+6. If target is _greater_, then change your right pointer to be midpoint - 1
+7. Return -1 or None if not found
+
 ## Trees
 
 ### In Order Traversal
