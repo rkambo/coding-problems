@@ -2,7 +2,7 @@
 
 ## Trees
 
-### Depth First Search
+### Depth First Traversal
 
 #### Iterative
 
