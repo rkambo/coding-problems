@@ -2,6 +2,30 @@
 
 ## Trees
 
+### In Order Traversal
+
+Traversal in the order: left subtree -> root -> right subtree
+
+1. If a left child of root exists, run InOrder on left child
+2. Print out the root
+3. If a right child of root exists, run InOrder on right child
+
+### Pre Order Traversal
+
+Traversal in the order: root -> left subtree -> right subtree
+
+1. Print out the root
+2. If a left child of root exists, run PreOrder on left child
+3. If a right child of root exists, run PreOrder on right child
+
+### Post Order Traversal
+
+Traversal in the order: left subtree -> right subtree -> root
+
+1. If a left child of root exists, run PostOrder on left child
+2. If a right child of root exists, run PostOrder on right child
+3. Print out the root
+
 ### Depth First Traversal
 
 #### Iterative
