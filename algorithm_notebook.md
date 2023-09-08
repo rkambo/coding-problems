@@ -69,3 +69,11 @@ Note: Unlike DFT, BFT _can't_ use recursion, as it uses a queue, **not** a stack
 4. Print out the value of current (or store it in an array)
 5. If the current's left child exists, add it to the queue
 6. If the current's right child exists, add it to the queue
+
+### Binary Search Tree Insertion
+
+1. If empty, return a new node with the value to insert (this signifies we've reached an empty space to insert the node)
+2. If the value to insert equals the current node value, return the current node (nothing to insert)
+3. If the value is greater than the current node's value, call the insert method on the right subtree, and assign it as the right subtree
+4. Otherwise, call the insert method on the left subtree and assign it to the left subtree
+5. Return the current node
